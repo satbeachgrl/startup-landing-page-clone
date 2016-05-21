@@ -1,4 +1,11 @@
 /* Navigation Section */
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
 body {
 	-webkit-font-smoothing: antialiased;
 }
@@ -24,6 +31,7 @@ body {
 	font-size: 16px;
 	color: #838994;
 	letter-spacing: 0.03em;
+	margin-left: 25px; 
 
 }
 .top-navigation .links > .active {
