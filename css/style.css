@@ -1,6 +1,6 @@
 /* Navigation Section */
 html {
-	/*box-sizing: border-box;*/
+	box-sizing: border-box;
 }
 *, *:before, *:after {
 	box-sizing: inherit;
@@ -16,6 +16,7 @@ body {
     margin: 0 auto;
     width: 970px;
     box-sizing: border-box;
+
 }
 
 .top-navigation {
@@ -30,11 +31,12 @@ body {
 .top-navigation .links {
 	float: right;
 	margin-top: 1.5em;
+	font-size: 1.04rem;
 }
 	
 .top-navigation .links li {
 	display: inline-block;
-	font-family: 'Roboto', sans-serif;
+	/*font-family: 'Roboto', sans-serif;*/
 	font-size: 16px;
 	color: #838994;
 	letter-spacing: 0.03em;
@@ -61,7 +63,8 @@ body {
     overflow: auto;
  }
 
- .introduction > .content {
+ .introduction h1,
+ .introduction h3 {
  	color: white;
 	text-align: center;
 	font-weight: 300;
@@ -70,10 +73,41 @@ body {
 
 .introduction h1 {
 	margin-top: 17.5rem;
+	font-size: 3.125rem;
 }
 
 .introduction h3 {
 	margin-top: 1.25rem;
+	font-size: 1.563rem;
 }	
-	
 
+.introduction .buttons {
+	color: white;
+	text-align: center;
+	margin-top: 1.563rem;
+	width: 9.688rem;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    padding: 1rem 1.5rem;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    margin: 0 auto;
+    /*font-size: 12px;*/
+
+}
+
+.introduction .buttons:hover {
+	cursor: pointer;
+	color: #F78431;
+	
+}
+
+/*.introduction .half {*/
+    /*width: 49%;
+    padding: 0 0.938rem;
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 1.125rem;
+    line-height: 1.2;
+*/
