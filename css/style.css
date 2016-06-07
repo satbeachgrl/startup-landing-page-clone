@@ -26,10 +26,10 @@ body {
 	background-color: #fff;
 }
 .top-navigation > .content {
-	/*width: 970px*/
+	width: 970px;
 	height: 70px;
-	/*margin: 0 auto;*/
-	/*padding: 0px 15px*/
+	margin: 0 auto;
+	padding: 0px 15px;
 }
 .top-navigation .links {
 	float: right;
@@ -143,11 +143,27 @@ button:hover {
 }
 
 .cases .devices li {
-	display: inline-block;
 	width: 33.3333333%;
-	border: 1px solid black;
-    box-sizing: border-box;
-    height: 4em;
-    float:left;
+	float:left;
 }
 
+.cases .devices h3 {
+	font-weight: 400;
+    font-size: 1.563rem;
+    margin: 2.5rem 0px 1.875rem;
+}
+
+ ul {
+	list-style: none;
+}
+
+/*.cases .devices p {
+    font-weight: 300;
+    font-size: 1.313rem;
+}*/
+
+.top-navigation {
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+}
